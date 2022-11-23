@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="styles.css">
+        <link href="fontawesome/css/all.min.css" rel="stylesheet">
+        <link href="fontawesome/css/all.css" rel="stylesheet">
+        
+        <title>Sidebar sub menus</title>
+    </head>
+    <body id="body-pd">
+        <div class="l-navbar" id="navbar" style="border-right: dotted 1px #fff;">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                        <a href="#" class="nav__logo">HEX GAMES</a>
+                    </div>
+                    <div class="nav__list" style="margin-top: 80px;">
+                        <a href="#" class="nav__link active">
+                            <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Homepage</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-gamepad" class="nav__icon"></i>
+                            <span class="nav__name">Featured Games</span>
+                        </a>
+
+                        <div  class="nav__link collapse">
+                            <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Categories</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Action</a>
+                                <a href="#" class="collapse__sublink">Arcade</a>
+                                <a href="#" class="collapse__sublink">Members</a>
+                                <a href="#" class="collapse__sublink">Data</a>
+                                <a href="#" class="collapse__sublink">Group</a>
+                                <a href="#" class="collapse__sublink">Members</a>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Analytics</span>
+                        </a>
+                        <div class="nav__link collapse">
+                            <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Community</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Data</a>
+                                <a href="#" class="collapse__sublink">Group</a>
+                                <a href="#" class="collapse__sublink">Members</a>
+                            </ul>
+                        </div>
+                        <a href="#" class="nav__link">
+                            <ion-icon name="settings-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Settings</span>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav__name">Log Out</span>
+                </a>
+            </nav>
+        </div>
+        <div class="content2">
+             <div class="box">
+            <input type="checkbox" id="check">
+            <div class="searchbox">
+                <input type="text" placeholder="Search..." style="color: white;">
+                <label for="check" class="icon">
+                    <i class="fas fa-search" style="color: white;"></i>
+                </label>
+            </div>
+        </div>
+        <div id="clearbox"></div>
+
+        <div class="banner">
+            <div id="banner-content">
+                <h1>Marvel Spiderman</h1>
+                <button class="stay" style="margin-top: 17%; margin-left: 26%; width: 30%; height: 50px;  background: linear-gradient(to right, rgba(209, 23, 33, 0.854),rgba(255, 255, 255, 0.854),rgba(44, 42, 180, 0.854))"><a href="#" style="font-size: 20px; text-decoration: none; color: black;">Get the Game</a></button>
+                <h2 style="font-size:14px; width: 70%; margin-top: -20%; margin-left: 12%; margin-top: -20%; ;">Live Through The Adventures Of Peter Paker</h2>
+                <p style="display: none;">efwfiwfwie</p>
+            </div>
+        </div>
+
+        <div id="trending">
+            <center><p style="color: #fff;">Featured Games</p></center>
+        </div>
+
+        <!--Image card layout-->
+        <div class="container">
+            <!--Image row start-->
+            <div class="row">
+                <!--Image card start-->
+                <div class="image">
+                    <img src="images/flex/images.jpg" alt="">
+                    <div class="details">
+                        <p>FIFA 23</p>
+                    </div>
+                </div>
+                <!--Image card end-->
+                <!--Image card start-->
+                <div class="image">
+                    <img src="images/flex/battle.jpg" alt="">
+                    <div class="details">
+                        <p>Battle Field 4</p>
+                    </div>
+                </div>
+                <!--Image card end-->
+                <!--Image card start-->
+                <div class="image">
+                    <img src="images/flex/kombat11.jpg" alt="">
+                    <div class="details">
+                        <p>Mortal kombat 11</p>
+                    </div>
+                </div>
+                <!--Image card end-->
+            </div>
+            <!--Image row end-->
+        </div>
+        <!--Image card end-->
+         <!--Image card layout-->
+         <div class="container">
+            <!--Image row start-->
+            <div class="row">
+                <!--Image card start-->
+                <div class="image">
+                    <img src="images/flex/warzone.jpg" alt="">
+                    <div class="details">
+                        <p>Call Of Duty: Warzone</p>
+                    </div>
+                </div>
+                <!--Image card end-->
+                <!--Image card start-->
+                <div class="image">
+                    <img src="images/flex/gow.jpg" alt="">
+                    <div class="details">
+                        <p>God Of War</p>
+                    </div>
+                </div>
+                <!--Image card end-->
+                <!--Image card start-->
+                <div class="image">
+                    <img src="images/flex/fifa22.jpg" alt="">
+                    <div class="details">
+                        <p>Fifa 22</p>
+                    </div>
+                </div>
+                <!--Image card end-->
+            </div>
+            <!--Image row end-->
+        </div>
+
+        <div class="latest">
+            <button>Latest Games</button>
+        </div><br><br>
+
+        <!--update navigation-->
+    
+        <div class="update">Latest Updates</div>
+            <div class="midnav">
+                <a class="active" href="#">FIFA 23</a>
+                <a href="">Warzone</a>
+                <a href="">Mortal kombat11</a>
+                <a href="">FIFA 22</a>
+                <a href="">God of WAR 4</a>
+                <a href="">Battle Field 4</a>
+            </div><br><br>
+            
+            <div class="containment">
+                <div class="card">
+                    <div class="boxx">
+                        <div class="contents">
+                            <h2>O1</h2>
+                            <h3>card 1</h3>
+                            <p>lorem ipsidium fswfwha few wfwfw fwfwjfwjfwf feewhfwjf wfjfwjfwjf fewhfwefkhfewjbfwejfwjjbfewjfjkwF W</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="boxx">
+                        <div class="contents">
+                            <h2>O2</h2>
+                            <h3>card 2</h3>
+                            <p>lorem ipsidium fswfwha few wfwfw fwfwjfwjfwf feewhfwjf wfjfwjfwjf fewhfwefkhfewjbfwejfwjjbfewjfjkwF W</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="boxx">
+                        <div class="contents">
+                            <h2>O2</h2>
+                            <h3>card 2</h3>
+                            <p>lorem ipsidium fswfwha few wfwfw fwfwjfwjfwf feewhfwjf wfjfwjfwjf fewhfwefkhfewjbfwejfwjjbfewjfjkwF W</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="boxx">
+                        <div class="contents">
+                            <h2>O2</h2>
+                            <h3>card 2</h3>
+                            <p>lorem ipsidium fswfwha few wfwfw fwfwjfwjfwf feewhfwjf wfjfwjfwjf fewhfwefkhfewjbfwejfwjjbfewjfjkwF W</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="boxx">
+                        <div class="contents">
+                            <h2>O2</h2>
+                            <h3>card 2</h3>
+                            <p>lorem ipsidium fswfwha few wfwfw fwfwjfwjfwf feewhfwjf wfjfwjfwjf fewhfwefkhfewjbfwejfwjjbfewjfjkwF W</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="boxx">
+                        <div class="contents">
+                            <h2>O3</h2>
+                            <h3>card 3</h3>
+                            <p>lorem ipsidium fswfwha few wfwfw fwfwjfwjfwf feewhfwjf wfjfwjfwjf fewhfwefkhfewjbfwejfwjjbfewjfjkwF W</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+            </div><br>
+
+            
+        </div>
+
+        <div class="latest">
+            <button>Read More</button>
+        </div><br><br>
+
+        <div class="banner2">
+            <h1>PLAY GAMES</h1>
+            <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. 
+                Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. 
+                Ground round jerky brisket pastrami shank.
+            </p>
+            <button>Latest Games</button>
+        </div>
+
+        <div class="parent">
+            <h3>Parents: Video game control is in your Hands</h3>
+            <button>learn more</button>
+        </div>
+       
+        <footer class="footer">
+            <div class="footer-left col-md-4 col-sm-6">
+              <p class="about">
+                <span> About the company</span> Ut congue augue non tellus bibendum, in varius tellus condimentum. In scelerisque nibh tortor, sed rhoncus odio condimentum in. Sed sed est ut sapien ultrices eleifend. Integer tellus est, vehicula eu lectus tincidunt,
+                ultricies feugiat leo. Suspendisse tellus elit, pharetra in hendrerit ut, aliquam quis augue. Nam ut nibh mollis, tristique ante sed, viverra massa.
+              </p>
+              <div class="icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="footer-center col-md-4 col-sm-6">
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span> Street name and number</span> City, Country</p>
+              </div>
+              <div>
+                <i class="fa fa-phone"></i>
+                <p> (+00) 0000 000 000</p>
+              </div>
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#"> office@company.com</a></p>
+              </div>
+            </div>
+            <div class="footer-right col-md-4 col-sm-6">
+              <h2> Company<span> logo</span></h2>
+              <p class="menu">
+                <a href="#"> Home</a> |
+                <a href="#"> About</a> |
+                <a href="#"> Services</a> |
+                <a href="#"> Portfolio</a> |
+                <a href="#"> News</a> |
+                <a href="#"> Contact</a>
+              </p>
+              <p class="name"> Company Name &copy; 2016</p>
+            </div>
+          </footer>
+
+
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="main.js"></script>
+    </body>
+</html
